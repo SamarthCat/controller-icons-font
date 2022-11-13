@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controller Icons Font</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>CONTROLLER ICONS FONT</h1>
+        <a href="./Config-Glyphs.otf">Ą Download OTF</a>
+    </div>
+
+    
+    <h2>INCLUDED ICONS</h2>
+
+    <div class="glyphboxes">
+
+    </div>
+
+    <h2>ABOUT</h2>
+    <p>
+        This Font Contains Controller Glyphs For Xbox and Playstation.<br>
+        It Is Based On Config Medium, And Has Had It's Latin Extended Range Replaced With These Icons.
+    </p>
+
+    <h2>TRY IT OUT</h2>
+    <input type="text" class="try" placeholder="ĔĕĔĕ ăĀĀă">
+
+    <script>
+        var glyphs = "ĀāĂăĄąĆćĈĉĊċČčĎďĐđĔĕĖėĘęĚěĜĝĒē"; // Looks Like Gibberish But These Are the Glyphs
+
+        var glyphbox = `
+        <div class="glyphbox">
+            <p>GLYPH</p>
+            <input type="button" onclick="copy(this);" value="Copy">
+        </div>
+        `
+        for(let glyph of glyphs) {
+            document.querySelector(".glyphboxes").innerHTML += glyphbox.replace("GLYPH", glyph);
+        }
+
+        function copy(box){
+            navigator.clipboard.writeText(box.parentElement.querySelector("p").innerText);
+            box.value = "Copied";
+        }
+
+    </script>
+</body>
+</html>
