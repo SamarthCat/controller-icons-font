@@ -1,4 +1,4 @@
-<svg width="612" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="900" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
   <style type="text/css">@font-face {
 
@@ -19,13 +19,28 @@
       margin: 0;
     }
 
+    a text {
+      fill: #0e9dff;
+    }
+
   </style>
  
  </defs>
  <g>
   <title></title>
   <text stroke-width="0" y="40" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">CONTROLLER ICONS FONT</text>
-  <a href="https://youtube.com"><text stroke-width="0" y="70" id="svg_1" font-size="24" font-family="Main" text-anchor="left" xml:space="preserve">Ą Download OTF</text></a>
-  <text stroke-width="0" y="1070" id="svg_1" font-size="24" font-family="Main" text-anchor="left" xml:space="preserve">HELLO</text>
+  <!--<a href="https://samarthcat.github.io/controller-icons-font/Config-Glyphs.otf"><text stroke-width="0" y="70" id="svg_1" font-size="24" font-family="Main" text-anchor="left" xml:space="preserve">Ą Download OTF</text></a>-->
+  <text stroke-width="0" y="150" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">INCLUDED ICONS</text>
+  <text stroke-width="0" y="200" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ĀāĂă</text>
+  <text stroke-width="0" y="250" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ĄąĆć</text>
+  <text stroke-width="0" y="300" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ĈĉĊċ</text>
+  <text stroke-width="0" y="350" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ČčĎď</text>
+  <text stroke-width="0" y="400" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ĐđĔĕ</text>
+  <text stroke-width="0" y="450" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ĖėĘę</text>
+  <text stroke-width="0" y="500" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ĚěĜĝ</text>
+  <text stroke-width="0" y="550" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">Ēē</text>
+
+
+  <text stroke-width="0" y="640" id="svg_1" font-size="48" font-family="Main" text-anchor="left" xml:space="preserve">ABOUT</text>
  </g>
 </svg>
