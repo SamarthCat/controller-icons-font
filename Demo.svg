@@ -3,7 +3,7 @@
   <style type="text/css">@font-face {
 
                 font-family: "Main";
-                src: url('https://cdn.jsdelivr.net/gh/SamarthCat/controller-icons-font/Config-Glyphs.otf') format("opentype");
+                src: url('https://raw.githubusercontent.com/SamarthCat/controller-icons-font/main/Config-Glyphs.otf') format("opentype");
 
 }</style>
  </defs>
